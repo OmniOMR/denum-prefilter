@@ -75,7 +75,7 @@ def resolve_checkpoint_path(config: Dict[str, object], variant: str) -> str:
 
 
 def compose_app_title(variant: str) -> str:
-    return f"Denum-prefilter"
+    return f"Demun-prefilter"
 
 
 def build_model_and_transforms(variant: str) -> Tuple[nn.Module, transforms.Compose]:

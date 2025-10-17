@@ -1,4 +1,4 @@
-# Denum-prefilter API
+# Demun-prefilter API
 
 This repository hosts a FastAPI application that exposes convolutional neural networks trained to prefilter document images by detecting the presence of musical notation. The service is designed as a high-recall filter that flags pages likely containing notation while maintaining a useful true-negative rate, allowing downstream pipelines to concentrate on genuinely musical content.
 
